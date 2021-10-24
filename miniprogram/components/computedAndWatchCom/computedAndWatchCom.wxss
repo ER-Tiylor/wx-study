@@ -1,0 +1,4 @@
+/* pages/components/computedAndWatchCom.wxss */
+.content{
+  color: #333;
+}

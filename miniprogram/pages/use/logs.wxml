@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <button bindtap="openNew">切换Tab页面: 首页</button>
+  <button bindtap="openComputed">扩展-computed</button>
+  <button bindtap="openSE">SE组件库</button>
+</view>

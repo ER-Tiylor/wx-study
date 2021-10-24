@@ -1,0 +1,64 @@
+<!--pages/sub-pages/SEComponents/SEComponents.wxml-->
+<view class="se-components">
+  <text class="sub-title">基础组件（3）</text>
+  <view class="basic-list" bindtap="toPage">
+    <view class="item" data-route="SEButtonDemo">Button 按钮<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialogDemo">CellItem 列表单元格<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialogDemo">DetailItem 清单单元格<text class="iconfont icon-Next"></text></view>
+  </view>
+  <!-- <text class="sub-title">表单组件（7）</text>
+  <view class="basic-list" bindtap="toPage">
+    <view class="item" data-route="SEButtonDemo">Input 输入框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">TextArea 文本域<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">CheckBox 复选框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Radio 单选框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Input 输入框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">form 表单<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Agree 勾选按钮<text class="iconfont icon-Next"></text></view>
+  </view> !-->
+  <text class="sub-title">反馈组件（8）</text>
+  <view class="basic-list" bindtap="toPage">
+    <view class="item" data-route="SEDialogDemo">Dialog 弹出框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialogDemo">Popup 弹出层<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialogDemo">Toast 吐司<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Drawer 抽屉<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Overlay 遮罩层<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialogDemo">Steps 步骤条<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialogDemo">DropMenu 下拉菜单<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialogDemo">SwipeCell 滑动单元格<text class="iconfont icon-Next"></text></view>
+  </view>
+  <!--
+  <text class="sub-title">滚动（2）</text>
+  <view class="basic-list" bindtap="toPage">
+    <view class="item" data-route="SEButtonDemo">Scroll<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Slide<text class="iconfont icon-Next"></text></view>
+  </view>
+  <text class="sub-title">导航（6）</text>
+  <view class="basic-list" bindtap="toPage">
+    <view class="item" data-route="SEButtonDemo">Grid 宫格<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">NavBar 导航栏<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">ScrollNavBar 滚动导航栏<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">SideBar 侧边导航<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Tabs 标签页<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">TabBar 导航栏<text class="iconfont icon-Next"></text></view>
+  </view>
+  <text class="sub-title">展示组件（7）</text>
+  <view class="basic-list" bindtap="toPage">
+    <view class="item" data-route="SEButtonDemo">Empty 空状态<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">CountDown 倒计时<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Collapse 折叠面板<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Divider 分割线<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Progress 进度条<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Swiper 轮播图<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Tag 标签<text class="iconfont icon-Next"></text></view>
+  </view>
+  <text class="sub-title">业务组件（6）</text>
+  <view class="basic-list" bindtap="toPage">
+    <view class="item" data-route="SEButtonDemo">分类选择<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">商品卡片<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Price<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">NoticeBar 通知栏<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">ShareSheet 分享面板<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Amount 金融数字<text class="iconfont icon-Next"></text></view>
+  </view> -->
+</view>

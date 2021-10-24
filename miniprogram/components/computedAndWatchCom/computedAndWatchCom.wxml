@@ -1,0 +1,22 @@
+<!--pages/components/computedAndWatchCom.wxml-->
+<text>
+</text>
+<view class="content">
+  <text class="intro">
+    框架扩展之computed
+    使用步骤
+    1.安装：npm install --save miniprogram-computed
+    2.微信开发工具 - 工具 - 构建npm
+    3.引入behavior并注册behavior
+    4.开始使用watch与computed
+  </text>
+  <br/>
+
+
+  <view>numberA:  {{numberA}}</view>
+  <view>numberB:  {{numberB}}</view>
+  <view>计算得到的AB和:  {{sum}}</view>
+  <button bindtap="add">A+1</button>
+  <text>初始时，watch不会触发</text>
+  <view>watch A和B得到的A、B乘积:  {{product}}</view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo.wxml-->
+<view class="se-dialog-demo">
+  <text class="sub-title">基础用法</text>
+  <view class="basic-list">
+    <view class="item" data-route="1" bindtap="showDialog">提示框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialog">确认框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialog">输入框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialog">showclose的提示框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDialog">slot<text class="iconfont icon-Next"></text></view>
+  </view>
+  <!-- 弹出框 -->
+  <SEDialog class="dialog" actions="{{actions}}">测试</SEDialog>
+</view>

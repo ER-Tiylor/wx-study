@@ -1,0 +1,5 @@
+<!--pages/sub-pages/computedAndWatch.wxml-->
+<view class="computedAndWatch">
+<computed-example/>
+</view>
+<text></text>

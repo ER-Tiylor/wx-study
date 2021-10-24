@@ -1,0 +1,6 @@
+/* pages/sub-pages/SEComponents/SEButtonDemo/SEButtonDemo.wxss */
+.se-button-demo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

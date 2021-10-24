@@ -1,0 +1,34 @@
+/* pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo.wxss */
+/* pages/sub-pages/SEComponents/SEComponents.wxss */
+@import '/components/iconfont/iconfont.wxss';
+.se-dialog-demo{
+  display: flex;
+  flex-direction: column;
+}
+.basic-list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.item{
+  width: 700rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 15rpx;
+  background-color: #eee;
+  text-indent: 40rpx;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.iconfont{
+  position: absolute;
+  right: 40rpx;
+}
+.sub-title{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  text-indent: 20rpx;
+  font-size: 34rpx;
+}

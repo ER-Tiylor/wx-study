@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/use/logs",
+    "components/SEDialog/SEDialog",
+    "components/SEButton/SEButton"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/use/logs",
+        "iconPath": "images/creative.png",
+        "selectedIconPath": "images/creative-active.png",
+        "text": "创意"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "pages/sub-pages",
+      "pages": [
+        "computedAndWatch/computedAndWatch",
+        "SEComponents/SEComponents",
+        "SEComponents/SEDialogDemo/SEDialogDemo",
+        "SEComponents/SEButtonDemo/SEButtonDemo"
+      ]
+    }
+  ]
+}

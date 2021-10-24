@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "components/SEDialog/SEDialog",
+          "pathName": "components/SEDialog/SEDialog",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SEComponents",
+          "pathName": "pages/sub-pages/SEComponents/SEComponents",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo",
+          "pathName": "pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

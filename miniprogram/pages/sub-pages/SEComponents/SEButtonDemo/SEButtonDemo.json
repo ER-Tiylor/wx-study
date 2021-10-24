@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "SEButton":"/components/SEButton/SEButton"
+  }
+}

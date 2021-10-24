@@ -1,0 +1,4 @@
+<!--pages/sub-pages/SEComponents/SEButtonDemo/SEButtonDemo.wxml-->
+<view class="se-button-demo">
+<SEButton>1111</SEButton>
+</view>
