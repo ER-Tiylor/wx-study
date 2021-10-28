@@ -9,5 +9,5 @@
     <view class="item" data-route="SEDialog">slot<text class="iconfont icon-Next"></text></view>
   </view>
   <!-- 弹出框 -->
-  <SEDialog class="dialog" actions="{{actions}}">测试</SEDialog>
+  <SEDialog class="dialog" title="提示" content="确定要删除这条信息吗？" actions="{{actions}}"></SEDialog>
 </view>

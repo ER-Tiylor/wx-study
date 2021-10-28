@@ -1,4 +1,7 @@
 .log-list {
+  height: 100vh;
+  background: url(https://hbimg.huabanimg.com/69400c492c52344c5f76fc66eec54de3dd7c564993a8-uCp8xb_fw658/format/webp) no-repeat center center;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   padding: 40rpx;

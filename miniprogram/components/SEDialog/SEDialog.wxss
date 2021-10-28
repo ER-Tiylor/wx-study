@@ -49,6 +49,7 @@
   padding: 0 58rpx;
 }
 .btn{
+  box-sizing: border-box;
   width: 200rpx;
   height: 83rpx;
   text-align: center;
@@ -56,4 +57,9 @@
   color: #FFFFFF;
   background: linear-gradient(180deg, #FBD30F 0%, #FCBE1A 100%);
   border-radius: 50rpx;
+}
+.left-btn{
+  background: #fff;
+  color: #FCC317;
+  border: 1px solid #FCC317;
 }

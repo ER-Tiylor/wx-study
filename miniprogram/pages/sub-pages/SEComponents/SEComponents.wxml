@@ -51,6 +51,7 @@
     <view class="item" data-route="SEButtonDemo">Progress 进度条<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">Swiper 轮播图<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">Tag 标签<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEButtonDemo">Paper<text class="iconfont icon-Next"></text></view>
   </view>
   <text class="sub-title">业务组件（6）</text>
   <view class="basic-list" bindtap="toPage">

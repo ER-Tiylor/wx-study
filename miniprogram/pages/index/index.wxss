@@ -1,9 +1,14 @@
 /**index.wxss**/
+.container{
+  height: 100vh;
+  background: url(https://hbimg.huabanimg.com/37e13a2135f11a1dc1647c2c8bb2fc6c9ab137413c3a-q7XX7S_fw658/format/webp) no-repeat center center;
+  background-size: 100% 100%;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #aaa;
+  color: #fff;
 }
 
 .userinfo-avatar {
@@ -15,5 +20,10 @@
 }
 
 .usermotto {
+  margin: 40rpx;
+  padding: 20rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
   margin-top: 200px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
 }

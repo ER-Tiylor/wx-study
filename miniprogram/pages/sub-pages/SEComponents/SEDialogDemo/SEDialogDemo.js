@@ -6,13 +6,24 @@ Page({
    */
   data: {
     actions:[],
-    dialog:undefined
+    dialog:undefined,
+    content:'1'
   },
   showDialog(){
     this.setData({
       actions:[{
-        text:'点击了A',
+        text:'取消',
         btnClick: this.dialog.hide.bind(this.dialog)
+      },
+      {
+        text:'确定',
+        btnClick: ()=>{
+          this.dialog.hide()
+          this.setData({
+            content:233,
+          })
+          console.log(this.data.content)
+        }
       }],
     })
     this.dialog.show()
