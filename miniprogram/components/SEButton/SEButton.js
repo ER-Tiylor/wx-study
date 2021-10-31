@@ -4,7 +4,18 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    type:{
+      type:String,
+      value:'default'
+    },
+    round:{
+      type:String,
+      value:null
+    },
+    plain:{
+      type:String,
+      value:null
+    }
   },
 
   /**
@@ -13,11 +24,12 @@ Component({
   data: {
 
   },
+  attached(){
+  },
 
   /**
    * 组件的方法列表
    */
   methods: {
-
   }
 })

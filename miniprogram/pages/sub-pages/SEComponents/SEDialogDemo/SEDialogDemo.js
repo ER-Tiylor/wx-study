@@ -6,27 +6,57 @@ Page({
    */
   data: {
     actions:[],
-    dialog:undefined,
-    content:'1'
+    dialog1:undefined,
+    dialog2:undefined,
+    dialog3:undefined,
+    dialog4:undefined,
+    dialog5:undefined,
+    content:'1',
+    tipActions:[]
   },
-  showDialog(){
+  showDialog(e){
+    let { route } = e.currentTarget.dataset
+    route = Number(route)
     this.setData({
-      actions:[{
-        text:'取消',
-        btnClick: this.dialog.hide.bind(this.dialog)
-      },
-      {
-        text:'确定',
-        btnClick: ()=>{
-          this.dialog.hide()
-          this.setData({
-            content:233,
-          })
-          console.log(this.data.content)
-        }
-      }],
+      actions:[
+        {
+          text:'取消',
+          btnClick: ()=>{this.[`dialog${route}`].hide()}
+        },
+        {
+          text:'确定',
+          btnClick: ()=>{
+            this.dialog.hide()
+            this.setData({
+              content:233,
+            })
+            console.log(this.data.content)
+          }
+        }],
     })
-    this.dialog.show()
+    switch(route){
+      case 1:
+        this.setData({
+          tipActions: [{text:'知道了',btnClick:()=>{this.dialog1.hide()}}]
+        })
+        this.dialog1.show()
+        break;
+      case 2:
+        this.dialog2.show()
+        break;
+      case 3:
+        this.dialog3.show()
+        break;
+      case 4:
+        this.dialog4.show()
+        break;
+      case 5:
+        this.dialog5.show()
+        break;
+      default:
+        return;
+    }
+    
   },
 
   /**
@@ -39,7 +69,11 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    this.dialog = this.selectComponent(".dialog")
+    this.dialog1 = this.selectComponent(".dialog1")
+    this.dialog2 = this.selectComponent(".dialog2")
+    this.dialog3 = this.selectComponent(".dialog3")
+    this.dialog4 = this.selectComponent(".dialog4")
+    this.dialog5 = this.selectComponent(".dialog5")
   },
 
   /**

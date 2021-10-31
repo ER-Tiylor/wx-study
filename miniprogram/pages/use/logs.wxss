@@ -1,6 +1,6 @@
 .log-list {
   height: 100vh;
-  background: url(https://hbimg.huabanimg.com/69400c492c52344c5f76fc66eec54de3dd7c564993a8-uCp8xb_fw658/format/webp) no-repeat center center;
+  background: url(https://iconfont.alicdn.com/t/b7694af2-8e07-42dc-be9b-ecd1bebf5252.png) no-repeat top center;
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -8,4 +8,31 @@
 }
 .log-item {
   margin: 10rpx;
+}
+.container{
+  padding: 20rpx;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #fff;
+}
+.menus{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  margin-bottom: 150rpx;
+}
+.box{
+  /* background-color: palegoldenrod; */
+  width: 300rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
 }

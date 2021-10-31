@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "Dialog 弹出层示例",
   "usingComponents": {
     "SEDialog":"/components/SEDialog/SEDialog"
   }

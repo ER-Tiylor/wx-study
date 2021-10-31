@@ -29,6 +29,18 @@
           "pathName": "pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SEButtonDemo/SEButtonDemo",
+          "pathName": "pages/sub-pages/SEComponents/SEButtonDemo/SEButtonDemo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/use/logs",
+          "pathName": "pages/use/logs",
+          "query": "",
+          "scene": null
         }
       ]
     }

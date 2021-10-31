@@ -1,4 +1,4 @@
 <!--components/SEButton/SEButton.wxml-->
-<view class="se-button">
+<view class="btn {{type}} {{round?'round':''}} {{plain?'plain':''}}">
   <slot></slot>
 </view>

@@ -62,5 +62,8 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  tapBtn(){
+    console.log('点击了按钮哦')
   }
 })

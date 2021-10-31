@@ -1,10 +1,14 @@
+
+
+组件设计主要参考了didi的mand mobile设计
+
 核心学习组件库：
-https://didi.github.io/mand-mobile/#/zh-CN/docs/components/form/radio
-https://element-plus.gitee.io/zh-CN/component/config-provider.html
-https://nutui.jd.com/#/inputnumber
-https://vant-contrib.gitee.io/vant/#/zh-CN/field
-https://didi.github.io/cube-ui/#/zh-CN/docs/button
-https://taro-ui.jd.com/#/docs/loadmore
+- https://didi.github.io/mand-mobile/#/zh-CN/docs/components/form/radio
+- https://element-plus.gitee.io/zh-CN/component/config-provider.html
+- https://nutui.jd.com/#/inputnumber
+- https://vant-contrib.gitee.io/vant/#/zh-CN/field
+- https://didi.github.io/cube-ui/#/zh-CN/docs/button
+- https://taro-ui.jd.com/#/docs/loadmore
 
 
 

@@ -41,6 +41,9 @@
 .content{
   margin-top: 20rpx;
   padding: 0 30rpx;
+  color:#666666 ;
+  font-size: 16px;
+  line-height: 24px;
 }
 .handle-btns{
   margin-top: 60rpx;
@@ -62,4 +65,9 @@
   background: #fff;
   color: #FCC317;
   border: 1px solid #FCC317;
+}
+.alert-btn{
+  color: #FFFFFF;
+  width: 100%;
+  background: linear-gradient(180deg, #FBD30F 0%, #FCBE1A 100%);
 }

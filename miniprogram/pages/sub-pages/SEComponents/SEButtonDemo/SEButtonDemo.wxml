@@ -1,4 +1,30 @@
 <!--pages/sub-pages/SEComponents/SEButtonDemo/SEButtonDemo.wxml-->
 <view class="se-button-demo">
-<SEButton>1111</SEButton>
+<text class="sub-title">基本</text>
+<SEButton class="btn" bindtap="tapBtn">default</SEButton>
+<SEButton class="btn" bindtap="tapBtn" type="primary">primary</SEButton>
+<SEButton class="btn" type="warning">warning</SEButton>
+<SEButton class="btn" type="disabled">disabled</SEButton>
+<SEButton class="btn" type="link">link</SEButton>
+<text class="sub-title">线性按钮</text>
+<SEButton class="btn" plain>default & plain</SEButton>
+<SEButton class="btn" type="primary" plain>primary & plain</SEButton>
+<SEButton class="btn" type="warning" plain>warning & plain</SEButton>
+<SEButton class="btn" type="disabled" plain>disabled & plain</SEButton>
+<text class="sub-title">圆角按钮</text>
+<SEButton class="btn" round >default & round</SEButton>
+<SEButton class="btn" round type="primary">primary & round</SEButton>
+<SEButton class="btn" round type="warning">warning & round</SEButton>
+<SEButton class="btn" round type="disabled">disabled & round</SEButton>
+<text class="sub-title">线性圆角按钮</text>
+<SEButton class="btn" round plain >default & plain & round</SEButton>
+<SEButton class="btn" round plain type="primary">primary & plain & round</SEButton>
+<SEButton class="btn" round plain type="warning">warning & plain & round</SEButton>
+<SEButton class="btn" round plain type="disabled">disabled & plain & round</SEButton>
+<text class="sub-title">预设定制按钮(源自工作实际UI)</text>
+<SEButton class="btn" round type="custom1">orange1 & round</SEButton>
+<SEButton class="btn" round type="custom2">custom2 & round</SEButton>
+<SEButton class="btn" round type="custom3">custom3 & round</SEButton>
+<text class="sub-title">带图标</text>
+<SEButton class="btn" type="custom4"><text><text class="iconfont icon-Contact"></text>  联系客服</text></SEButton>
 </view>

@@ -1,6 +1,18 @@
 /* pages/sub-pages/SEComponents/SEButtonDemo/SEButtonDemo.wxss */
+@import '/components/iconfont/iconfont.wxss';
 .se-button-demo{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.btn{
+  width:60%;
+  margin-bottom: 20rpx;
+}
+.sub-title{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15rpx;
+  margin-top:25rpx ;
 }

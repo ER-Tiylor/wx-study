@@ -1,10 +1,92 @@
 /* components/SEButton/SEButton.wxss */
 .se-button{
-  background: #3E85FF;
+  background: #2F86F6;
   width: 240rpx;
   height: 80rpx;
   line-height: 80rpx;
   text-align: center;
   color: #FFF;
-  border-radius: 10rpx;
+  border-radius: 4rpx;
+}
+.btn{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color:#41485d;
+  padding:0 10rpx;
+  border-radius: 4rpx;
+}
+.default{
+  background: #FFF;
+  border: 3rpx solid #c5cad5;
+}
+.default:active{
+  background: #f9fafb;
+}
+.primary{
+  background: #2F86F6;
+  color: #FFF;
+}
+.primary:active{
+  background: #2a78dc;
+}
+.primary.plain{
+  color:#2f86f6;
+  background: #FFF;
+  border: 3rpx solid #2f86f6;
+}
+.primary.plain:active{
+  background: #eaf2fe;
+}
+.warning{
+  background-color: #ff5257;
+  color: #FFF;
+}
+.warning:active{
+  background: #e9424f;
+}
+.warning.plain{
+  color:#ff5257;
+  background: #FFF;
+  border: 3rpx solid #ff5257;
+}
+.warning.plain:active{
+  background: #fac3c6;
+}
+.custom1{
+  background: linear-gradient(180deg, #FBD30F 0%, #FCBE1A 100%);
+  color: #FFFFFF;
+}
+.custom2{
+  background: #FCD202;
+  color: #FFFFFF;
+}
+.custom3{
+  background: #DD1D21;
+  color: #FFFFFF;
+}
+.custom4{
+  background: #FCD202;
+  font-weight: 500;
+  color: #404040;
+  border-radius: 5px;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.05);
+}
+.iconfont{
+  margin-right: 10rpx;
+}
+/* .default.disable{
+  opacity: .3;
+} */
+.disabled{
+  background: #e2e4ea;
+  color: #fff;
+  cursor: disabled;
+}
+.link{
+  color:#2f86f6;
+}
+.round{
+  border-radius: 999999rpx;
 }

@@ -27,7 +27,6 @@
     <view class="item" data-route="SEDialogDemo">DropMenu 下拉菜单<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEDialogDemo">SwipeCell 滑动单元格<text class="iconfont icon-Next"></text></view>
   </view>
-  <!--
   <text class="sub-title">滚动（2）</text>
   <view class="basic-list" bindtap="toPage">
     <view class="item" data-route="SEButtonDemo">Scroll<text class="iconfont icon-Next"></text></view>
@@ -61,5 +60,5 @@
     <view class="item" data-route="SEButtonDemo">NoticeBar 通知栏<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">ShareSheet 分享面板<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">Amount 金融数字<text class="iconfont icon-Next"></text></view>
-  </view> -->
+  </view>
 </view>

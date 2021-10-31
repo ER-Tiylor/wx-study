@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "Button 按钮示例",
   "usingComponents": {
     "SEButton":"/components/SEButton/SEButton"
   }

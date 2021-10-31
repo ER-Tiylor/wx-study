@@ -1,14 +1,14 @@
 <!--components/SEDialog.wxml-->
 <view  wx:if="{{visible}}" class="se-dialog">
   <view class="dialog-box">
-    <view class="title">{{title}}<text class="iconfont icon-Share_2" bindtap="tapLeft"></text></view>
+    <view class="title">{{title}}<text wx:if="{{showClose}}" class="iconfont icon-Share_2" bindtap="tapLeft"></text></view>
     <view class="content">
       <view class="content-text" style="text-align: {{contentAlign}};">{{content}}</view>
-      <slot></slot>
+      <slot name='content'></slot>
     </view>
     <view class="handle-btns">
-      <view class="left-btn btn" bindtap="tapLeft">{{actions[0].text}}</view>
-      <view class="right-btn btn" bindtap="tapRight">{{actions[1].text}}</view>
+      <view class="left-btn btn {{type==='alert'?'alert-btn':''}}" bindtap="tapLeft">{{actions[0].text}}</view>
+      <view wx:if="{{type!=='alert'}}" class="right-btn btn" bindtap="tapRight">{{actions[1].text}}</view>
     </view>
   </view>
 </view>
