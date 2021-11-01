@@ -41,7 +41,8 @@ Component({
    * 组件的初始数据
    */
   data: {
-    visible: false
+    visible: false,
+    value: ""
   },
   attached: function () {
     console.log(this.properties.showClose)
@@ -55,7 +56,8 @@ Component({
       this.data.actions[0].btnClick()
     },
     tapRight(){
-      this.data.actions[1].btnClick()
+      const value = this.data.value?this.data.value:''
+      this.data.actions[1].btnClick(value)
     },
     show(){
       this.setData({

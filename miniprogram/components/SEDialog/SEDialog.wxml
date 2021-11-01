@@ -3,7 +3,8 @@
   <view class="dialog-box">
     <view class="title">{{title}}<text wx:if="{{showClose}}" class="iconfont icon-Share_2" bindtap="tapLeft"></text></view>
     <view class="content">
-      <view class="content-text" style="text-align: {{contentAlign}};">{{content}}</view>
+      <input model:value="{{value}}" wx:if="{{type==='prompt'}}" class="input-box"  placeholder-class="placeholder-css" type="text" placeholder="请输入您的手机号码" />
+      <view wx:if="{{content && type!=='prompt'}}" class="content-text" style="text-align: {{contentAlign}};">{{content}}</view>
       <slot name='content'></slot>
     </view>
     <view class="handle-btns">

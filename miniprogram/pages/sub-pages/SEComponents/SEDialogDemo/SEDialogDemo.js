@@ -25,8 +25,11 @@ Page({
         },
         {
           text:'确定',
-          btnClick: ()=>{
-            this.dialog.hide()
+          btnClick: (res)=>{
+            if(res){
+              console.log('我是输入的数据',res)
+            }
+            this.[`dialog${route}`].hide()
             this.setData({
               content:233,
             })

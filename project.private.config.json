@@ -41,6 +41,12 @@
           "pathName": "pages/use/logs",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo",
+          "pathName": "pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo",
+          "query": "",
+          "scene": null
         }
       ]
     }

@@ -10,16 +10,18 @@
   background: rgba(00,00,00,.5);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .dialog-box{
   width: 580rpx;
-  /* height: 400rpx; */
-  min-height: 280rpx;
+  height: auto;
   border-radius: 32rpx;
   background:#FFF;
   margin: 0 auto;
-  margin-top: 300rpx;
-  padding: 20rpx;
+  padding: 50rpx 20rpx;
+  padding-top: 25rpx;
+  padding-bottom: 40rpx;
   display: flex;
   flex-direction: column;
 }
@@ -39,14 +41,24 @@
   text-align: right;
 }
 .content{
-  margin-top: 20rpx;
+  margin-top: 50rpx;
   padding: 0 30rpx;
   color:#666666 ;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 20rpx;
 }
+.input-box{
+  margin: 0 auto;
+  margin-top: 15rpx;
+  width: 80%;
+  padding-bottom: 12rpx;
+  text-indent: 5rpx;
+  border-bottom: 1px solid #eaf0fb;
+}
+  
 .handle-btns{
-  margin-top: 60rpx;
+  margin-top: 30rpx;
   display: flex;
   justify-content: space-between;
   padding: 0 58rpx;
