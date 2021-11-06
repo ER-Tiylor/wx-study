@@ -1,0 +1,22 @@
+[class*=animation-]{
+  transition: all 0.3s;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.animation-fade{
+  animation-name: fade;
+  animation-duration: .24s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fade{
+  0%{
+    opacity: 0;
+    transform: scale(.2);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}

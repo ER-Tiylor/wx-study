@@ -1,5 +1,5 @@
 /* pages/sub-pages/SEComponents/SEComponents.wxss */
-@import '/components/iconfont/iconfont.wxss';
+/* @import '/components/iconfont/iconfont.wxss'; */
 .se-components{
   display: flex;
   flex-direction: column;

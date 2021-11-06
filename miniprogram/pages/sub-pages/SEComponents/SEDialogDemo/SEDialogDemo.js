@@ -12,7 +12,9 @@ Page({
     dialog4:undefined,
     dialog5:undefined,
     content:'1',
-    tipActions:[]
+    tipActions:[],
+    animationName:'',
+    visi:false
   },
   showDialog(e){
     let { route } = e.currentTarget.dataset
@@ -40,7 +42,12 @@ Page({
     switch(route){
       case 1:
         this.setData({
-          tipActions: [{text:'知道了',btnClick:()=>{this.dialog1.hide()}}]
+          tipActions: [{text:'知道了',btnClick:()=>{
+            this.setData({
+              animationName: 'animation-fade'
+            })
+            this.dialog1.hide()
+          }}],
         })
         this.dialog1.show()
         break;

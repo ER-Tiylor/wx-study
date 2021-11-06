@@ -38,7 +38,8 @@
         "computedAndWatch/computedAndWatch",
         "SEComponents/SEComponents",
         "SEComponents/SEDialogDemo/SEDialogDemo",
-        "SEComponents/SEButtonDemo/SEButtonDemo"
+        "SEComponents/SEButtonDemo/SEButtonDemo",
+        "SEComponents/AnimationDemo/animationDemo"
       ]
     }
   ]

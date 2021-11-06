@@ -1,6 +1,6 @@
 /* pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo.wxss */
 /* pages/sub-pages/SEComponents/SEComponents.wxss */
-@import '/components/iconfont/iconfont.wxss';
+/* @import '/components/iconfont/iconfont.wxss'; */
 .se-dialog-demo{
   display: flex;
   flex-direction: column;

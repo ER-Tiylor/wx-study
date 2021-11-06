@@ -1,5 +1,5 @@
 <!--components/SEDialog.wxml-->
-<view  wx:if="{{visible}}" class="se-dialog">
+<view wx:if="{{visible}}" class="se-dialog" >
   <view class="dialog-box">
     <view class="title">{{title}}<text wx:if="{{showClose}}" class="iconfont icon-Share_2" bindtap="tapLeft"></text></view>
     <view class="content">

@@ -6,7 +6,7 @@
     <view class="item" data-route="2" bindtap="showDialog">确认框<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="3" bindtap="showDialog">输入框<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="4" bindtap="showDialog">showclose的提示框<text class="iconfont icon-Next"></text></view>
-    <view class="item" data-route="5" bindtap="showDialog">slot<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="5"  bindtap="showDialog">slot<text class="iconfont icon-Next"></text></view>
   </view>
   <!-- 弹出框 -->
   <SEDialog class="dialog1" title="温馨提示" type="alert" content="该车主已在3个月内进行过精养服务，爱车不可以过度换油哦，请继续为下位车主服务，赚取积分吧，如果疑问，请联系人工客服咨询。" actions="{{tipActions}}">

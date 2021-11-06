@@ -1,5 +1,5 @@
 /* pages/sub-pages/SEComponents/SEButtonDemo/SEButtonDemo.wxss */
-@import '/components/iconfont/iconfont.wxss';
+/* @import '/components/iconfont/iconfont.wxss'; */
 .se-button-demo{
   display: flex;
   flex-direction: column;

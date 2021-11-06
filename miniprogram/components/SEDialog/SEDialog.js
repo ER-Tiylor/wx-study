@@ -1,7 +1,8 @@
 // components/SEDialog.js
 Component({
   options: {
-    multipleSlots: true // 在组件定义时的选项中启用多slot支持
+    multipleSlots: true, // 在组件定义时的选项中启用多slot支持
+    styleIsolation: 'apply-shared' //关闭小程序样式隔离，可应用全局样式
   },
   /**
    * 组件的属性列表
@@ -11,6 +12,10 @@ Component({
     type:{
       type: String,
       value: "confirm"
+    },
+    animation:{
+      type: String,
+      value:''
     },
     title:{
       type: String,
@@ -42,10 +47,10 @@ Component({
    */
   data: {
     visible: false,
-    value: ""
+    value: "", //input value
   },
   attached: function () {
-    console.log(this.properties.showClose)
+    // console.log(this.properties.showClose,11)
   },
 
   /**
