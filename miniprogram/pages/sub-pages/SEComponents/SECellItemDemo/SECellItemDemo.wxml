@@ -1,0 +1,13 @@
+<!--pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo.wxml-->
+<!-- <text>pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo.wxml</text> -->
+<view class="se-cellitem-demo">
+  <text class="block-title">普通列表项</text>
+  <text class="block-title">带描述的列表项</text>
+  <text class="block-title">带图标、内容的列表项</text>
+  <text class="block-title">带跳转的列表项（page OR tab）</text>
+  <text class="block-title">带摘要描述的列表项</text>
+  <text class="block-title">自带switch（也可使用slot）</text>
+  <text class="block-title">禁用列表项</text>
+  <text class="block-title">使用插槽</text>
+  <text class="block-title">卡片样式</text>
+</view>

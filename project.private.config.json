@@ -47,6 +47,30 @@
           "pathName": "pages/sub-pages/SEComponents/SEDialogDemo/SEDialogDemo",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo",
+          "pathName": "pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo",
+          "pathName": "pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "components/SECellItem/SECellItem",
+          "pathName": "components/SECellItem/SECellItem",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "components/SESwitch/SESwitch",
+          "pathName": "components/SESwitch/SESwitch",
+          "query": "",
+          "scene": null
         }
       ]
     }

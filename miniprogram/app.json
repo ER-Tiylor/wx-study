@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/use/logs",
     "components/SEDialog/SEDialog",
-    "components/SEButton/SEButton"
+    "components/SEButton/SEButton",
+    "components/SECellItem/SECellItem",
+    "components/SESwitch/SESwitch"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -39,7 +41,8 @@
         "SEComponents/SEComponents",
         "SEComponents/SEDialogDemo/SEDialogDemo",
         "SEComponents/SEButtonDemo/SEButtonDemo",
-        "SEComponents/AnimationDemo/animationDemo"
+        "SEComponents/AnimationDemo/animationDemo",
+        "SEComponents/SECellItemDemo/SECellItemDemo"
       ]
     }
   ]

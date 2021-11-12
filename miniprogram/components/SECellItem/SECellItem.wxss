@@ -1,0 +1,17 @@
+/* components/SECellItem/SECellItem.wxss */
+.se-cell-item{
+  margin-top: 30rpx;
+  padding: 10px 40rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32rpx;
+  color: #333333;
+}
+.content{
+  color:#909090;
+}
+.content .icon-Next{
+  font-size: 36rpx;
+}

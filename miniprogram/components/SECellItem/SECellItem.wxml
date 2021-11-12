@@ -1,0 +1,5 @@
+<!--components/SECellItem/SECellItem.wxml-->
+<view class="se-cell-item">
+  <view class="title">{{title}}</view>
+  <view class="content"><text class="content">{{content}}</text><text class="iconfont icon-Next"></text></view>
+</view>

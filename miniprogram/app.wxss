@@ -12,4 +12,5 @@
 }
 page{
   color: #333;
+  background-color: #F7F8FA;
 }
