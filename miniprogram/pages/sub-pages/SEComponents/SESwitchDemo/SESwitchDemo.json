@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Switch组件示例",
+  "usingComponents": {
+    "SESwitch": "/components/SESwitch/SESwitch"
+  }
+}

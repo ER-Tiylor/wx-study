@@ -1,0 +1,4 @@
+/* pages/sub-pages/SEComponents/SESwitchDemo/SESwitchDemo.wxss */
+.se-switch-demo{
+  padding: 30rpx;
+}

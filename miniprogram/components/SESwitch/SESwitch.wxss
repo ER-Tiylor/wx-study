@@ -1,31 +1,75 @@
 /* components/SESwitch/SESwitch.wxss */
 .se-switch{
-  --boxWidth:103rpx;
+  --boxWidth:105rpx;
+  --boxHeight:58rpx;
   --buttonWidth:58rpx;
+  --buttonHeight:58rpx;
+}
+.small{
+  --boxWidth:72rpx;
+  --boxHeight:42rpx;
+  --buttonWidth:42rpx;
+  --buttonHeight:42rpx;
+}
+.middle{
+  --boxWidth: 88rpx;
+  --boxHeight: 44rpx;
+  --buttonWidth: 44rpx;
+  --buttonHeight: 44rpx;
 }
 .se-switch{
   width: var(--boxWidth);
-  height: 60rpx;
+  height: var(--boxHeight);
   background-color: #e2e4ea;
+  border: 5rpx solid #e2e4ea;
   border-radius: 99999rpx;
   box-sizing: content-box;
   transition: background-color 0.3s;
-  border: 1px solid #e2e4ea;
 }
 .switch-button{
   display: block;
-  width: var(--buttonWidth);
-  height: 58rpx;
+  width: var(--boxHeight);
+  height: var(--boxHeight);
   background-color: #fff;
   z-index: 1;
   border-radius: 9999rpx;
   box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
-  transition: transform 0.3s cubic-bezier(0.3, 1.05, 0.4, 1.05);
+  /* transition: transform 0.3s cubic-bezier(0.3, 1.05, 0.4, 1.05); */
+  transition: transform 0.35s cubic-bezier(0.45,1,0.4,1);
+  position: relative;
 }
-.right{
-  background-color: #fc9153;
-  border: 1px solid #fc9153;
+/* #fc9153 */
+.checked{
+  background-color: var(--activeColor);
+  border: 5rpx solid var(--activeColor);
 }
-.right .switch-button{
+.disabled{
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.loading::after{
+  content:'';
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  z-index: 2;
+  width: calc(var(--boxHeight) * 0.7);
+  height: calc(var(--boxHeight) * 0.7);
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 4rpx solid transparent;
+  border-top-color: #1989fa;
+  animation: loading .7s linear infinite;
+}
+@keyframes loading {
+  from {
+    transform: translateX(-50%) translateY(-50%) rotate(0);
+  }
+  to {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+.checked .switch-button{
   transform: translateX(calc(var(--boxWidth) - var(--buttonWidth)));
 }

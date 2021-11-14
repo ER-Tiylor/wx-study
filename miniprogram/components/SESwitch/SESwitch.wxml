@@ -1,4 +1,4 @@
 <!--components/SESwitch/SESwitch.wxml-->
-<view class="se-switch {{vModel?'right':''}}" bind:tap="changeStatus">
-  <text class="switch-button"></text>
+<view style="{{styleVars}}" class="se-switch {{size=='small'?'small':(size=='middle'?'middle':'')}} {{status?'checked':''}} {{disabled?'disabled':''}}" catch:tap="changeStatus">
+  <text class="switch-button {{loading?'loading':''}}"></text>
 </view>

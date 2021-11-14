@@ -14,6 +14,7 @@
     <view class="item" data-route="SEButtonDemo">CheckBox 复选框<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">Radio 单选框<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">Input 输入框<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SESwitchDemo">Switch 开关<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">form 表单<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">Agree 勾选按钮<text class="iconfont icon-Next"></text></view>
   </view> !

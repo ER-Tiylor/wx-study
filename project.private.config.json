@@ -71,6 +71,12 @@
           "pathName": "components/SESwitch/SESwitch",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SESwitchDemo/SESwitchDemo",
+          "pathName": "pages/sub-pages/SEComponents/SESwitchDemo/SESwitchDemo",
+          "query": "",
+          "scene": null
         }
       ]
     }

@@ -1,0 +1,26 @@
+<!--pages/sub-pages/SEComponents/SESwitchDemo/SESwitchDemo.wxml-->
+<view class="se-switch-demo">
+  <view>基础用法</view>
+  <view>默认关闭状态</view>
+  <SESwitch></SESwitch>
+  <view>设置值为打开</view>
+  <SESwitch v-model="{{true}}"/>
+  <view>禁用状态</view>
+  <SESwitch v-model="{{true}}" disabled></SESwitch>
+  <view>开关按钮loading样式</view>
+  <SESwitch v-model="{{true}}" loading></SESwitch>
+  <view>change事件</view>
+  <SESwitch bind:change="getStatus"></SESwitch>
+  <view>异步控制</view>
+  <SESwitch bind:change="asyncSwitch" loading='{{loading}}' v-model="{{switchStatus}}"></SESwitch>
+  <view>自定义按钮颜色</view>
+  <SESwitch v-model="{{true}}" activeColor='#fc9153'></SESwitch>
+  <SESwitch v-model="{{true}}" activeColor='#FF4949'></SESwitch>
+  <view>预设尺寸</view>
+  <view>small</view>
+  <SESwitch v-model="{{true}}" size="small"></SESwitch>
+  <view>middle</view>
+  <SESwitch v-model="{{true}}" size="middle"></SESwitch>
+  <view>default</view>
+  <SESwitch v-model="{{true}}"></SESwitch>
+</view>

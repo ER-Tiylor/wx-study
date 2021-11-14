@@ -42,7 +42,8 @@
         "SEComponents/SEDialogDemo/SEDialogDemo",
         "SEComponents/SEButtonDemo/SEButtonDemo",
         "SEComponents/AnimationDemo/animationDemo",
-        "SEComponents/SECellItemDemo/SECellItemDemo"
+        "SEComponents/SECellItemDemo/SECellItemDemo",
+        "SEComponents/SESwitchDemo/SESwitchDemo"
       ]
     }
   ]
