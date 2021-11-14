@@ -20,8 +20,8 @@
 .se-switch{
   width: var(--boxWidth);
   height: var(--boxHeight);
-  background-color: #e2e4ea;
-  border: 5rpx solid #e2e4ea;
+  background-color: var(--inactiveColor);
+  border: 5rpx solid var(--inactiveColor);
   border-radius: 99999rpx;
   box-sizing: content-box;
   transition: background-color 0.3s;
