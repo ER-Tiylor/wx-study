@@ -1,7 +1,7 @@
 <!--logs.wxml-->
 <view class="container log-list">
   <view class="menus">
-    <view class="box" bindtap="openNew">切换Tab页面: 首页</view>
+    <view class="box" bindtap="openNew">业务场景组件</view>
     <view class="box" bindtap="openComputed">语法扩展-computed</view>
     <view class="box" bindtap="openSE">SE组件库</view>
     <view class="box" bindtap="openAnimation">动画示例</view>

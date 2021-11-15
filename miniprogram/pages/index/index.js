@@ -2,7 +2,7 @@
 var app = getApp();
 Page({
     data: {
-        motto: '你好，我是一名前端开发者，我正在尝试制作属于我的小程序组件库，目的一是工作，二是学习。',
+        motto: 'hi！这是我正在制作的能快速适应工作业务开发的小程序UI库-SEUI',
         userInfo: {},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo'),

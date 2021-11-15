@@ -1,8 +1,12 @@
 /**index.wxss**/
+.index{
+  background-color: #fff;
+}
 .container{
   height: 100vh;
-  background: url(https://iconfont.alicdn.com/t/5dc437c5-a0e3-461a-90c0-174aa44fff93.png) no-repeat top center;
+  background: url(https://iconfont.alicdn.com/t/e6ac23ae-8a5b-4318-9eea-37903a35013d.png) no-repeat top center;
   background-size: 100% auto;
+  background-position: 0rpx 130rpx;
 }
 .userinfo {
   display: flex;

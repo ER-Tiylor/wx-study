@@ -1,6 +1,6 @@
 .log-list {
   height: 100vh;
-  background: url(https://iconfont.alicdn.com/t/b7694af2-8e07-42dc-be9b-ecd1bebf5252.png) no-repeat top center;
+  background: url(https://iconfont.alicdn.com/t/e5f014cd-0132-4af6-9d0d-3ba77bf1b96c.png) no-repeat top center;
   background-size: contain;
   display: flex;
   flex-direction: column;
