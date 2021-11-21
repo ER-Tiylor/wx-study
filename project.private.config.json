@@ -77,6 +77,24 @@
           "pathName": "pages/sub-pages/SEComponents/SESwitchDemo/SESwitchDemo",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SETabsDemo/SETabsDemo",
+          "pathName": "pages/sub-pages/SEComponents/SETabsDemo/SETabsDemo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SEBadgeDemo/SEBadgeDemo",
+          "pathName": "pages/sub-pages/SEComponents/SEBadgeDemo/SEBadgeDemo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo",
+          "pathName": "pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo",
+          "query": "",
+          "scene": null
         }
       ]
     }

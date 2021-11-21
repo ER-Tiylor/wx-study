@@ -2,11 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/use/logs",
+    "pages/use/use",
     "components/SEDialog/SEDialog",
     "components/SEButton/SEButton",
     "components/SECellItem/SECellItem",
-    "components/SESwitch/SESwitch"
+    "components/SESwitch/SESwitch",
+    "components/SEBadge/SEBadge"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,7 +27,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/use/logs",
+        "pagePath": "pages/use/use",
         "iconPath": "images/creative.png",
         "selectedIconPath": "images/creative-active.png",
         "text": "创意"
@@ -43,7 +44,10 @@
         "SEComponents/SEButtonDemo/SEButtonDemo",
         "SEComponents/AnimationDemo/animationDemo",
         "SEComponents/SECellItemDemo/SECellItemDemo",
-        "SEComponents/SESwitchDemo/SESwitchDemo"
+        "SEComponents/SESwitchDemo/SESwitchDemo",
+        "business-components/business-components",
+        "SEComponents/SETabsDemo/SETabsDemo",
+        "SEComponents/SEBadgeDemo/SEBadgeDemo"
       ]
     }
   ]

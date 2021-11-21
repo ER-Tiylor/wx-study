@@ -36,3 +36,7 @@
   text-indent: 20rpx;
   font-size: 34rpx;
 }
+.item-group{
+  padding: 0 30rpx;
+  margin-bottom: 20rpx;
+}

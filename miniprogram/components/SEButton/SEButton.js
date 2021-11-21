@@ -15,6 +15,10 @@ Component({
     plain:{
       type:String,
       value:null
+    },
+    size:{
+      type:String,
+      value:null
     }
   },
 

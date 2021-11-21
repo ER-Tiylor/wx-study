@@ -1,17 +1,62 @@
 /* components/SECellItem/SECellItem.wxss */
 .se-cell-item{
-  margin-top: 30rpx;
-  padding: 10px 40rpx;
+  padding: 20rpx 40rpx;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 32rpx;
   color: #333333;
+  min-height: 94rpx;
+  box-sizing: border-box;
+  position: relative;
 }
-.content{
+.border::after{
+  content:' ';
+  z-index: 2;
+  position: absolute;
+  transform: scaleY(.5) translateY(100%);
+  transform-origin: 50% 100%;
+  border-bottom: 2rpx solid #e2e4ea;
+  width: calc(100% - 80rpx);
+  background-color: #F6F6F6;
+  bottom: 0;
+  left: 40rpx ;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.isLink:active{
+  background: #f9fafb;
+}
+.desc{
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  color: #858b9c;
+  line-height: 40rpx;
+}
+.right{
+  height: 100%;
+  display: flex;
+  align-items: center;
   color:#909090;
+  font-size: 28rpx;
 }
-.content .icon-Next{
-  font-size: 36rpx;
+.right .icon-Next{
+  margin-top: 3rpx;
+}
+.disabled{
+  color:#c5cad5;
+  cursor: not-allowed;
+}
+.disabled .text,.disabled .content{
+  color:#c5cad5;
+}
+.cardFirst{
+  border-radius: 20rpx 20rpx 0 0;
+}
+.cardLast{
+  border-radius: 0 0 20rpx 20rpx;
 }

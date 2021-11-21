@@ -1,5 +1,16 @@
 <!--components/SECellItem/SECellItem.wxml-->
-<view class="se-cell-item">
-  <view class="title">{{title}}</view>
-  <view class="content"><text class="content">{{content}}</text><text class="iconfont icon-Next"></text></view>
+<view catch:tap="toPage" class="se-cell-item {{disabled?'disabled':''}}  {{border?'border':''}} {{isLink?'isLink':''}} {{cardLast?'cardLast':''}} {{cardFirst?'cardFirst':''}}">
+    <view class="title">
+      <slot name='icon'></slot>
+      <view wx:if="{{title}}" class="text">
+        {{title}}</view>
+      <slot wx:else name='title'></slot>
+      <view wx:if="{{description}}" class="desc">{{description}}</view>
+    </view>
+    <view class="right">
+      <text wx:if="{{content}}" class="content">{{content}}</text>
+      <slot wx:else></slot>
+      <text wx:if="{{arrow}}" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+      <text wx:if="{{arrow}}"class="iconfont icon-Next"></text>
+    </view>
 </view>

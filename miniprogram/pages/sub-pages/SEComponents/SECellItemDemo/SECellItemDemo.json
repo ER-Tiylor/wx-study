@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "CellItem 列表单元格示例",
+  "usingComponents": {
+    "SECellItem": "/components/SECellItem/SECellItem",
+    "SESwitch": "/components/SESwitch/SESwitch"
+  }
 }

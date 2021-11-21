@@ -14,8 +14,12 @@
   line-height: 80rpx;
   text-align: center;
   color:#41485d;
-  padding:0 10rpx;
+  padding:0 15rpx;
   border-radius: 4rpx;
+  display: inline-block;
+}
+.size{
+  width: 100rpx;
 }
 .default{
   background: #FFF;

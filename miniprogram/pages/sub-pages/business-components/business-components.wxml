@@ -1,0 +1,15 @@
+<!--pages/sub-pages/business-component/business-component.wxml-->
+<view class="business-components">
+  <view class="menus">
+    <view class="box" bindtap="openNew">商品卡片</view>
+    <view class="box" bindtap="openComputed">SKU弹出式选择框</view>
+    <view class="box" bindtap="openSE">产品分类菜单</view>
+    <view class="box" bindtap="openAnimation">搜索组件</view>
+    <view class="box" bindtap="openAnimation">抽奖活动（九宫格）</view>
+    <view class="box" bindtap="openAnimation">抽奖活动（转盘）</view>
+    <view class="box" bindtap="openAnimation">SKU算法与业务实现</view>
+    <view class="box" bindtap="openAnimation">生成海报</view>
+    <view class="box" bindtap="openAnimation">自定义导航栏</view>
+    <view class="box" bindtap="openAnimation">裁剪图片</view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<!--components/SEBadge/SEBadge.wxml-->
+<view style="{{styleVars}}" class="se-badge {{dot?'dot':''}} {{shape==='horn'?'horn':''}} {{absolute?'absolute':''}}">
+  <view class="badge" wx:if="{{!dot}}">{{text}}</view>
+</view>

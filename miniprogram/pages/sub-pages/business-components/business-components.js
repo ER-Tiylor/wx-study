@@ -1,18 +1,11 @@
-// pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo.js
+// pages/sub-pages/business-component/business-component.js
 Page({
-  
+
   /**
    * 页面的初始数据
    */
   data: {
-    homeRoute:{
-      type:'tabPage',
-      url:'/pages/index/index'
-    },
-    listRoute:{
-      type:'page',
-      url:'/pages/sub-pages/SEComponents/SEComponents?user=z',
-    }
+
   },
 
   /**

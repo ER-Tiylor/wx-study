@@ -1,0 +1,24 @@
+/* components/SEBadge/SEBadge.wxss */
+
+.se-badge{
+  background: var(--bgColor,#FF4949);
+  display: inline-block;
+  color: #FFF;
+  font-size: 25rpx;
+  line-height: 120%;
+  padding: 0 6rpx 0 6rpx;
+  border-radius: 9999rpx;
+}
+.dot{
+  width: 15rpx;
+  height: 15rpx;
+  padding: 0;
+}
+.horn{
+  border-radius: 9999rpx 9999rpx 9999rpx 0;
+}
+.absolute{
+  position: absolute;
+  right: var(--right);
+  top: var(--top);
+}

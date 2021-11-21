@@ -4,6 +4,7 @@
   <text class="sub-title">基础组件（3）</text>
   <view class="basic-list" bindtap="toPage">
     <view class="item" data-route="SEButtonDemo">Button 按钮<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEBadgeDemo">Badge 徽标<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SECellItemDemo">CellItem 列表单元格<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEDialogDemo">DetailItem 清单单元格<text class="iconfont icon-Next"></text></view>
   </view>
@@ -39,9 +40,8 @@
     <view class="item" data-route="SEButtonDemo">Grid 宫格<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">NavBar 导航栏<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">ScrollNavBar 滚动导航栏<text class="iconfont icon-Next"></text></view>
-    <view class="item" data-route="SEButtonDemo">SideBar 侧边导航<text class="iconfont icon-Next"></text></view>
-    <view class="item" data-route="SEButtonDemo">Tabs 标签页(Tabs、TabPane)<text class="iconfont icon-Next"></text></view>
-    <view class="item" data-route="SEButtonDemo">TabsSwiper 全屏选项卡<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SESideBarDemo">SideBar 侧边导航<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SETabsDemo">Tabs 标签页(Tabs、TabPane)<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">TabBar 导航栏<text class="iconfont icon-Next"></text></view>
   </view>
   <text class="sub-title">展示组件（8）</text>

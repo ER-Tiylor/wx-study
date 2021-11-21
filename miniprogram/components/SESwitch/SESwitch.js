@@ -58,9 +58,10 @@ Component({
   methods: {
     changeStatus(){
       if(this.properties.disabled) return;
-        this.setData({
-          status:!this.data.status
-        })
+      this.setData({
+        status:!this.data.status
+      })
+      wx.vibrateShort({type:'medium'})
       this.triggerEvent('change',this.data.status)
     }
   }

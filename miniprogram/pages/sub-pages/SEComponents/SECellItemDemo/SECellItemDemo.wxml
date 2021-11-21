@@ -2,12 +2,34 @@
 <!-- <text>pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo.wxml</text> -->
 <view class="se-cellitem-demo">
   <text class="block-title">普通列表项</text>
+  <SECellItem title='标题示例' border/>
+  <SECellItem title='个人信息' border arrow/>
+  <SECellItem title='有底边框' arrow border />
+  <SECellItem title='余额' arrow border content="20.0" />
+  <SECellItem title='姓名' content="田月荣"/>
+  <SECellItem title='详情' arrow isLink/>
   <text class="block-title">带描述的列表项</text>
-  <text class="block-title">带图标、内容的列表项</text>
+  <SECellItem title='设备管理' description="管理您的常用设备" border/>
+  <SECellItem title='安全小贴士' description="道路千万条，风险第一条"/>
   <text class="block-title">带跳转的列表项（page OR tab）</text>
-  <text class="block-title">带摘要描述的列表项</text>
-  <text class="block-title">自带switch（也可使用slot）</text>
+  <SECellItem title='跳转Tab页（home）' to="{{homeRoute}}"  arrow isLink border/>
+  <SECellItem title='跳转page页（组件列表）' to="{{listRoute}}" arrow isLink />
   <text class="block-title">禁用列表项</text>
+  <SECellItem title='个人信息' border arrow disabled/>
   <text class="block-title">使用插槽</text>
+  <SECellItem title='长辈版' border ><SESwitch v-model='{{true}}' size="middle"></SESwitch></SECellItem>
+  <SECellItem  border arrow isLink>
+    <view slot="title">长辈模式</view>
+    <text>未开启</text>
+  </SECellItem>
+  <SECellItem  border isLink>
+    <view slot="title">联系电话</view>
+    <input style="text-align: right;" placeholder-style="text-align:right;" type="text" placeholder="请输入客户的联系电话"/>
+  </SECellItem>
   <text class="block-title">卡片样式</text>
+  <view class="item-group">
+    <SECellItem cardFirst title='勋章' isLink border content="14枚勋章"/>
+    <SECellItem title='笔记' isLink border content="1949个笔记" />
+    <SECellItem cardLast isLink title='阅读记录和订阅' content="13本读完"/>
+  </view>
 </view>

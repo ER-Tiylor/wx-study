@@ -1,18 +1,11 @@
-// pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo.js
+// pages/sub-pages/SEComponents/SEButtonDemo/SEButtonDemo.js
 Page({
-  
+
   /**
    * 页面的初始数据
    */
   data: {
-    homeRoute:{
-      type:'tabPage',
-      url:'/pages/index/index'
-    },
-    listRoute:{
-      type:'page',
-      url:'/pages/sub-pages/SEComponents/SEComponents?user=z',
-    }
+
   },
 
   /**
@@ -69,5 +62,8 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  tapBtn(){
+    console.log('点击了按钮哦')
   }
 })

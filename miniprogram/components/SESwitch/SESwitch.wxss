@@ -24,7 +24,7 @@
   border: 5rpx solid var(--inactiveColor);
   border-radius: 99999rpx;
   box-sizing: content-box;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, border 0.3s;
 }
 .switch-button{
   display: block;

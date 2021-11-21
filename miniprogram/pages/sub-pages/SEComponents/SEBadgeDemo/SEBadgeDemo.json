@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Badge 徽标示例",
+  "usingComponents": {
+    "SEBadge":"/components/SEBadge/SEBadge",
+    "SEButton":"/components/SEButton/SEButton"
+  }
+}

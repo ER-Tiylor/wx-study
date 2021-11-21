@@ -1,0 +1,13 @@
+/* pages/sub-pages/SEComponents/SEBadgeDemo/SEBadgeDemo.wxss */
+.box1{
+  
+}
+.item{
+  margin-right: 20rpx;
+}
+.relative{
+  position: relative;
+}
+.w-120{
+  width: 120rpx;
+}
