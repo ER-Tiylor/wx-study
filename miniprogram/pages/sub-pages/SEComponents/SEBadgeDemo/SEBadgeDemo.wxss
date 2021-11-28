@@ -1,6 +1,6 @@
 /* pages/sub-pages/SEComponents/SEBadgeDemo/SEBadgeDemo.wxss */
-.box1{
-  
+.box{
+  margin: 0rpx 40rpx 40rpx 40rpx;
 }
 .item{
   margin-right: 20rpx;
@@ -10,4 +10,11 @@
 }
 .w-120{
   width: 120rpx;
+  margin-left: 40rpx;
+}
+.block-title{
+  font-size: 16px;
+  line-height: 40px;
+  text-indent: 60rpx;
+  color: rgba(69, 90, 100, 0.7);
 }

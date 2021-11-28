@@ -7,7 +7,8 @@
     "components/SEButton/SEButton",
     "components/SECellItem/SECellItem",
     "components/SESwitch/SESwitch",
-    "components/SEBadge/SEBadge"
+    "components/SEBadge/SEBadge",
+    "components/SEPopup/SEPopup"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -47,7 +48,9 @@
         "SEComponents/SESwitchDemo/SESwitchDemo",
         "business-components/business-components",
         "SEComponents/SETabsDemo/SETabsDemo",
-        "SEComponents/SEBadgeDemo/SEBadgeDemo"
+        "SEComponents/SEBadgeDemo/SEBadgeDemo",
+        "SEComponents/SEDetailItemDemo/SEDetailItemDemo",
+        "SEComponents/SEPopupDemo/SEPopupDemo"
       ]
     }
   ]

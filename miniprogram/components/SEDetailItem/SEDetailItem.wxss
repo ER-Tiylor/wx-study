@@ -1,0 +1,23 @@
+/* components/SEDetailItem/SEDetailItem.wxss */
+.se-detail-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 74rpx;
+  background-color: #fff;
+  padding: 0 40rpx;
+  font-size: 32rpx;
+}
+.title{
+  color:#858b9c;
+}
+.content{
+  color:#333;
+}
+.bold{
+  color: #333;
+  font-weight: bold;
+}
+.bold .title{
+  color: #333;
+}

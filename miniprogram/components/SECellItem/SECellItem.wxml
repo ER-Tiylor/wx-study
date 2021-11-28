@@ -1,5 +1,5 @@
 <!--components/SECellItem/SECellItem.wxml-->
-<view catch:tap="toPage" class="se-cell-item {{disabled?'disabled':''}}  {{border?'border':''}} {{isLink?'isLink':''}} {{cardLast?'cardLast':''}} {{cardFirst?'cardFirst':''}}">
+<view bind:tap="toPage" class="se-cell-item {{disabled?'disabled':''}}  {{border?'border':''}} {{isLink?'isLink':''}} {{cardLast?'cardLast':''}} {{cardFirst?'cardFirst':''}}">
     <view class="title">
       <slot name='icon'></slot>
       <view wx:if="{{title}}" class="text">

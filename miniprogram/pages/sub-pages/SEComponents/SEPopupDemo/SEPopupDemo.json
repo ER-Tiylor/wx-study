@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Popup 弹出层示例",
+  "usingComponents": {
+    "SECellItem":"/components/SECellItem/SECellItem",
+    "SEPopup":"/components/SEPopup/SEPopup"
+  }
+}

@@ -1,0 +1,12 @@
+<!--pages/sub-pages/SEComponents/SEDetailItemDemo/SEDetailItemDemo.wxml-->
+<view class="se-detail-item-demo">
+  <view class="block-title">示例</view>
+  <SEDetailItem title="转账银行" content="招商银行" bold/>
+  <SEDetailItem title="收款账户" content="2701 1234 5678 9010"/>
+  <SEDetailItem title="收款银行" content="农村商业银行"/>
+  <SEDetailItem title="转账备注" content="转账"/>
+  <SEDetailItem title="转账渠道" content="手机银行"/>
+  <SEDetailItem title="进度">
+    <text style="color:#3ca0e6">进度查询</text>
+  </SEDetailItem>
+</view>

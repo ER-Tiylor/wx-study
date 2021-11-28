@@ -1,0 +1,8 @@
+<!--components/SEDetailItem/SEDetailItem.wxml-->
+<view class="se-detail-item {{bold?'bold':''}}" >
+  <view class="title">{{title}}</view>
+  <view class="right">
+    <view class="content">{{content}}</view>
+    <slot></slot>
+  </view>
+</view>

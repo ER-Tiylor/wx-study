@@ -57,9 +57,7 @@ Component({
   data: {
 
   },
-  attached(){
-    console.log(this.properties.to)
-  },
+  attached(){},
 
   /**
    * 组件的方法列表

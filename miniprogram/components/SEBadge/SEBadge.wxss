@@ -4,10 +4,11 @@
   background: var(--bgColor,#FF4949);
   display: inline-block;
   color: #FFF;
-  font-size: 25rpx;
-  line-height: 120%;
-  padding: 0 6rpx 0 6rpx;
+  font-size: 24rpx;
+  /* line-height: 120%; */
+  padding: 0 9rpx 0.5rpx 10rpx;
   border-radius: 9999rpx;
+  vertical-align: middle;
 }
 .dot{
   width: 15rpx;

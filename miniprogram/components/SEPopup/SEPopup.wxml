@@ -1,0 +1,11 @@
+<!--components/SEPopup/SEPopup.wxml-->
+<view class="se-popup" style="{{styleVars}}" capture-catch:touchmove="preventDefault">
+  <view wx:if="{{vModel && overlay}}" bind:animationstart="animationStart" bindtap="hideOverlay" bind:animationend="hidePopup"  class="overlay animation-fade-in {{animationFadeOut}} {{overlayClass}}">
+  </view>
+  <view wx:if="{{vModel}}" catch:bind="tapContent" class="content {{position}} {{entranceAnimation}} {{contentExit}} {{round?roundClassName:''}} {{popClass}}">
+    <view class="close-btn">
+      <text class="iconfont icon-Share_2 close-text" catch:tap="hideOverlay"></text>
+    </view>
+    <slot></slot>
+  </view>
+</view>

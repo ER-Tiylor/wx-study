@@ -1,0 +1,22 @@
+<!--pages/sub-pages/SEComponents/SEPopupDemo/SEPopupDemo.wxml-->
+<view class="se-popup-demo">
+  <text class="block-title" >示例</text>
+  <SECellItem title="顶部弹出" data-pop='pop1' bindtap="showPop" border isLink arrow>{{pop1}}</SECellItem>
+  <SEPopup model:v-model="{{pop1}}" position="top"></SEPopup>
+  <SECellItem title="左侧弹出" data-pop='pop2' bindtap="showPop" border isLink arrow></SECellItem>
+  <SEPopup model:v-model="{{pop2}}" position="left"></SEPopup>
+  <SECellItem title="右侧弹出" data-pop='pop3' bindtap="showPop" border isLink arrow></SECellItem>
+  <SEPopup model:v-model="{{pop3}}" position="right"></SEPopup>
+  <SECellItem title="底部弹出" data-pop='pop4' bindtap="showPop" border isLink arrow></SECellItem>
+  <SEPopup model:v-model="{{pop4}}"  position="bottom"></SEPopup>
+  <SECellItem title="居中弹出" data-pop='pop5' bindtap="showPop" border isLink arrow></SECellItem>
+  <SEPopup model:v-model="{{pop5}}" position="center"></SEPopup>
+  <SECellItem title="禁止点击遮罩关闭" data-pop='pop6' bindtap="showPop" border isLink arrow></SECellItem>
+  <SEPopup model:v-model="{{pop6}}" maskClosable="{{false}}" position="center"></SEPopup>
+  <SECellItem title="显示关闭按钮"  data-pop='pop7' bindtap="showPop" border isLink arrow></SECellItem>
+  <SEPopup model:v-model="{{pop7}}" position="center"></SEPopup>
+  <SECellItem title="显示为圆角" data-pop='pop8' bindtap="showPop" border isLink arrow></SECellItem>
+  <SEPopup model:v-model="{{pop8}}" position="bottom" round></SEPopup>
+  <SECellItem title="设置弹出高度" data-pop='pop10' bindtap="showPop" isLink arrow></SECellItem>
+  <SEPopup model:v-model="{{pop10}}" height="{{800}}" position="bottom"></SEPopup>
+</view>

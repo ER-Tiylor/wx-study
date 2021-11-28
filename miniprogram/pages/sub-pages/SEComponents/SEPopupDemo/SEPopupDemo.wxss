@@ -1,0 +1,11 @@
+/* pages/sub-pages/SEComponents/SEPopupDemo/SEPopupDemo.wxss */
+.block-title{
+  font-size: 16px;
+  line-height: 40px;
+  text-indent: 60rpx;
+  color: rgba(69, 90, 100, 0.7);
+}
+.se-popup-demo{
+  display: flex;
+  flex-direction: column;
+}

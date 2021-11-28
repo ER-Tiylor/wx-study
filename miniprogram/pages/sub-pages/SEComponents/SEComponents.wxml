@@ -6,7 +6,7 @@
     <view class="item" data-route="SEButtonDemo">Button 按钮<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEBadgeDemo">Badge 徽标<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SECellItemDemo">CellItem 列表单元格<text class="iconfont icon-Next"></text></view>
-    <view class="item" data-route="SEDialogDemo">DetailItem 清单单元格<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEDetailItemDemo">DetailItem 清单单元格<text class="iconfont icon-Next"></text></view>
   </view>
   <text class="sub-title">表单组件（7）</text>
   <view class="basic-list" bindtap="toPage">
@@ -22,8 +22,8 @@
   <text class="sub-title">反馈组件（8）</text>
   <view class="basic-list" bindtap="toPage">
     <view class="item" data-route="SEDialogDemo">Dialog 弹出框<text class="iconfont icon-Next"></text></view>
-    <view class="item" data-route="SEDialogDemo">Popup 弹出层<text class="iconfont icon-Next"></text></view>
-    <view class="item" data-route="SEDialogDemo">Toast 吐司<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEPopupDemo">Popup 弹出层<text class="iconfont icon-Next"></text></view>
+    <view class="item" data-route="SEToastDemo">Toast 吐司<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">Drawer 抽屉<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEButtonDemo">Overlay 遮罩层<text class="iconfont icon-Next"></text></view>
     <view class="item" data-route="SEDialogDemo">Steps 步骤条<text class="iconfont icon-Next"></text></view>

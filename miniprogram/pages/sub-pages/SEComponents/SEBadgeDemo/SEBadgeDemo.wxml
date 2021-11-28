@@ -1,32 +1,33 @@
 <!--pages/sub-pages/SEComponents/SEBadgeDemo/SEBadgeDemo.wxml-->
 <view class="se-badge">
-  <view>圆形/直角边形</view>
-  <view class="box1">
+  <view class="block-title">圆形/直角边形</view>
+  <view class="box">
     <SEBadge class="item" value='1014'/>
     <SEBadge class="item" shape="horn" value='1014'/>
   </view>
-  <view>徽标数显示方式</view>
-  <view class="box1">
+  <view class="block-title">徽标数显示方式</view>
+  <view class="box">
     <SEBadge class="item" value='10000'/>
     <SEBadge class="item" value='10000' max='999'/>
     <SEBadge class="item" value='10000' max='999' numberType='ellipsis'/>
     <SEBadge class="item" value='100000' numberType='limit'/>
   </view>
-  <view>显示圆点</view>
-  <view class="box1">
+  <view class="block-title">显示圆点</view>
+  <view class="box">
     <SEBadge class="item" dot value='10000'/>
   </view>
-  <view>自定义主题</view>
-  <view class="box1">
+  <view class="block-title">自定义主题</view>
+  <view class="box">
+    <SEBadge class="item" bgColor="#C20C0C" color="" value='10000' max="99"/>
     <SEBadge class="item" bgColor="#f9ae3d" value='10000' max="99"/>
     <SEBadge class="item" bgColor="#5ac725" value='10000' max="99"/>
     <SEBadge class="item" max="99" bgColor="linear-gradient(315deg, rgb(73, 143, 242) 0%, rgb(73, 101, 242) 100%)" value='10000'/>
     <SEBadge class="item" max="99" bgColor="#FF4949" value='10000'/>
   </view>
-  <view>absolute与offset</view>
+  <view class="block-title">absolute与offset</view>
   <view class="relative w-120">
     <SEButton class="btn">按钮1</SEButton>
-    <SEBadge value='100' offset='{{[-5,-30]}}' max="99" absolute/>
+    <SEBadge value='100' offset='{{[-10,-40]}}' max="99" absolute/>
   </view>
 </view>
 

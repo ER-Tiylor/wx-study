@@ -95,6 +95,24 @@
           "pathName": "pages/sub-pages/SEComponents/SECellItemDemo/SECellItemDemo",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SEDetailItemDemo/SEDetailItemDemo",
+          "pathName": "pages/sub-pages/SEComponents/SEDetailItemDemo/SEDetailItemDemo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "components/SEPopup/SEPopup",
+          "pathName": "components/SEPopup/SEPopup",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sub-pages/SEComponents/SEPopupDemo/SEPopupDemo",
+          "pathName": "pages/sub-pages/SEComponents/SEPopupDemo/SEPopupDemo",
+          "query": "",
+          "scene": null
         }
       ]
     }
