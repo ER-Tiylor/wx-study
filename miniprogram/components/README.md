@@ -1,5 +1,4 @@
 
-
 组件设计主要参考了didi的mand mobile设计
 
 核心学习组件库：
@@ -45,4 +44,7 @@
 17. [legaoUI - JD](https://legao.jd.com/)
 18. [FusionDesign - Alibaba](https://fusion.design/pc/?spm=fusion-design.design-design-fusion.top-nav.d2pc.145a1334RB7xa8&themeid=2)
 
+19. [material ui-react](https://mui.com/)
+20. [vuetify](https://vuetifyjs.com/en/)
+21. [primevue](https://www.primefaces.org/primevue/)
 
