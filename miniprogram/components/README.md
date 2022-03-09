@@ -1,11 +1,6 @@
 组件设计主要参考了didi的mand mobile设计
 
-核心学习组件库：
-- [NaiveUI](https://www.naiveui.com/zh-CN/os-theme/docs/installation)
 
-- [Mand Mobile](https://didi.github.io/mand-mobile/#/zh-CN/docs/components/basic/cell-item )
-
-- [Cube-UI 滴滴-mobile](https://didi.github.io/cube-ui/#/zh-CN/docs/dialog)
 
 
 
