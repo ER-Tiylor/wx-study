@@ -62,4 +62,4 @@ UI设计语言
 8. [QDesign](https://qq.design/design/QLanguage/Concept/)
 9. [Teambition Design](https://design.teambition.com/#)
 10. [Facebook Design](https://design.facebook.com/)
-11.[更多扩展](https://github.com/alexpate/awesome-design-systems)
+11. [更多扩展](https://github.com/alexpate/awesome-design-systems)
