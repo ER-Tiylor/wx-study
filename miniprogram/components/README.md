@@ -49,4 +49,5 @@
 21. [primevue](https://www.primefaces.org/primevue/)
 22. [TDesign](https://tdesign.tencent.com/)
 23. [OnsenUI](https://onsen.io/)
+24. [NaiveUI](https://www.naiveui.com/zh-CN/os-theme/docs/installation)
 
